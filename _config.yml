@@ -531,9 +531,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: vFORnQxENTFyRRbtYwlOi6Ke-gzGzoHsz
+  app_key: 7C8Mh7uivcW4Sn3zTtn04shV
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -808,6 +808,14 @@ vendors:
 css: css
 js: js
 images: images
+
+# 修改超链接为蓝色
+custom_css:
+  post_body_a:
+    enable: true
+    normal_color: "#3296FA"
+    hover_color: "#0593d3"
+
 
 # Theme version
 version: 5.1.4
