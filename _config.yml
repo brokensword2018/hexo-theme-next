@@ -528,7 +528,7 @@ rating:
   color:  fc6423
 # ---------------------------------------------------------------
 
-# Show number of visitors to each article.
+# Show number of visitors to each article.66
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
